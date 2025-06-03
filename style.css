@@ -1,74 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+:root {
+    --cor-principal: #6e859f;
+    --cor-secundaria: #284260;
+    --cor-destaque: #FF8800;
+    --cor-intermediaria: #6E859F;
+
+}
+
 body {
-    color: white;
-    background: black;
-    margin: 0px;
-    font-family: "Bebas Neue", sans-serif
+    font-family: "Chakra Petch", sans-serif;
+    color: var(--cor-principal);
 }
 
-header {
-    border-bottom: solid 2px rgb(42, 122, 228);
-    padding: 20px;
-    font-size: 40px;
-    color: rgb(42, 122, 228);
+h1,
+h2,
+h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
 }
 
-.chamada {
-    background: rgb(76, 55, 95);
-    padding-bottom: 80px;
-    padding-top: 80px;
-    display: flex;
-    justify-content: center;
+h3{
+    color: var(--cor-intermediaria);
+    font-size: small;
 }
 
-.chamada-de-texto {
-
-    margin-right: 5%;
-
+h4{
+    color: var(--cor-intermediaria);
+    font-weight: 700;
+    font-size: small;
+}
+.bedge{
+    color: var(--cor-destaque);
 }
 
-h1 {
-
-
-    font-size: 40px;
-
+.lead,
+.btn-link {
+    color: var(--cor-destaque);
+    font-weight: 700;
 }
 
-
-p {
-
-
-    font-size: 20px;
-
+a,
+.btn-link:hover {
+    color: var(--cor-principal);
 }
 
-img {
-    height: 200px;
+a:hover {
+    color: var(--cor-destaque);
 }
-
-.categoria-videos {
-    display: flex;
-    overflow-x: auto;
-    gap: 20px;
-
-}
-
-.categoria-videos img {
-    opacity: 0.5;
-}
-
-.categoria-videos img:hover {
-    opacity: 1.0;
-    border: 5px solid rgb(76, 55, 95);
-}
-
-.categoria {
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-top: 15px;
-    margin-bottom: 100px;
-}
-
-.categoria h2 {
-color: rgb(76, 55, 95);
-}
-
